@@ -29,10 +29,19 @@ a {
   color: black;
 }
 
+.content-text-box {
+  width: 65%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 img {
-    display: inline;
-    margin: 0 auto;
-    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 40vw;
 }
 .icon {
   width: 10%;
@@ -49,7 +58,7 @@ img {
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    width: 33vw;
+    width: 10vw;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 0px;
@@ -73,8 +82,23 @@ img {
     color: black;
   }
 
-  .icon {
-    width: 20%;
-  }
+img {
+    display: inline;
+    margin: 0 auto;
+    width: 80vw;
+}
 
+.icon {
+  width: 20%;
+}
+
+  .topnav a {
+    float: left;
+    width: 33vw;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 }
