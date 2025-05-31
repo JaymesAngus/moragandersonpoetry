@@ -5,18 +5,28 @@
 
 body{
     padding-bottom: 50px;
-    background-color: white;
+    background-color: hsl(201 31% 94.5%);
     text-align: center;
     font-family: "LexendLight";
 }
 
-content{
-    width: 60%;
-    margin: auto;
-    margin-top: 100px;
-    text-align: left;
-    font-size: 20px;
-    color: black;
+p{
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content{
+  display: block;
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: left;
+  font-size: 20px;
+  color: black;
 }
 
 img {
@@ -24,18 +34,22 @@ img {
     margin: 0 auto;
     width: 80vw;
 }
+.icon {
+  width: 10%;
+}
 
 .topnav {
     background-color: #333;
     overflow: hidden;
     width:100vw;
     margin:-8px;
+    margin-bottom: 20px;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    width: 25vw;
+    width: 33vw;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 0px;
@@ -49,8 +63,18 @@ img {
     color: black;
   }
   
-  /* Add a color to the active/current link */
-  /* .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  } */
+@media only screen and (max-width: 600px) {
+  .content{
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+  }
+
+  .icon {
+    width: 20%;
+  }
+
+}
