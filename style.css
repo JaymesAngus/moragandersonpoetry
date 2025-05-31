@@ -82,15 +82,23 @@ img {
     color: black;
   }
 
-img {
-    display: inline;
-    margin: 0 auto;
-    width: 80vw;
-}
+  .content-text-box {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-.icon {
-  width: 20%;
-}
+  img {
+      display: inline;
+      margin: 0 auto;
+      width: 80vw;
+  }
+
+  .icon {
+    width: 20%;
+  }
 
   .topnav a {
     float: left;
